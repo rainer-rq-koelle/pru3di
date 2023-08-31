@@ -7,9 +7,8 @@ Authors@R:
 Description: An opinionated implementation of the 3Di algorithm. The use case
     serves also to allow me to explore the development (and it workflow) of
     R packages. This work-in-progress will ultimately be transferred to a more
-    useful and stable version.usethis::use_git()
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    useful and stable version.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
