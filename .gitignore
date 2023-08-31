@@ -6,3 +6,7 @@
 .quarto
 inst/doc
 docs
+
+# skip heavy data files
+data-raw/x-eidw-egll-4D.rda
+data-raw/x-essa-ekch-4D.rda

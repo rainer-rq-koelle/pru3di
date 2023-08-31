@@ -23,6 +23,7 @@ Imports:
     assertthat,
     dplyr,
     ggplot2,
+    lubridate,
     rlang
 VignetteBuilder: knitr
 Depends: 

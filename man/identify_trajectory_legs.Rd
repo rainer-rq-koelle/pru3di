@@ -4,7 +4,7 @@
 \alias{identify_trajectory_legs}
 \title{Identify legs / gaps in a trajectory}
 \usage{
-identify_trajectory_legs(.trjs, .grp_var = .env$ICAO24, .max_gap = 3)
+identify_trajectory_legs(.trjs, .grp_var = .data$ICAO24, .max_gap = 3)
 }
 \arguments{
 \item{.trjs}{tibble/dataframe of state vectors (flight identification and 4D)}

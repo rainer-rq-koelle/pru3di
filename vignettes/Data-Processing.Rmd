@@ -29,6 +29,33 @@ The score is composed of a horizontal and vertical component.
 
 Let's load a subset of trajectories.
 
+```{r}
+rq <- eidw_egll |> 
+  standardise_traj_from_trafficlib() |> 
+  identify_trajectory_legs() |> 
+  make_uid()
+
+dplyr::glimpse(rq)
+```
+
+Let's pick a random set of trajectories and plot them.
+
+```{r}
+set.seed(666)
+picks <- rq$UID |> unique() |> sample(3)
+picks
+```
+
+```{r}
+library(ggplot2)
+
+rq |> dplyr::filter(UID %in% picks) |> 
+  ggplot() +
+  geom_point(aes(x = TIME, y = FL, color = FLTID)) +
+  theme(legend.position = "top")
+```
+
+
 # Horizontal Component
 
 calc the horiz comp
