@@ -1,0 +1,38 @@
+---
+title: "Data-Processing"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Data-Processing}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(pru3di)
+```
+
+This vignette shows how to read in the source data and process it to generate the milestone table for each valid trajectory.
+
+# Overview
+
+The 3Di algorithm defines a composite "(in)efficiency" score for each flight.
+The score is composed of a horizontal and vertical component.
+
+# Data Loading and Processing
+
+Let's load a subset of trajectories.
+
+# Horizontal Component
+
+calc the horiz comp
+
+# Vertical Component
+
+# Construct Score

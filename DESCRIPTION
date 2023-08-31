@@ -15,7 +15,10 @@ RoxygenNote: 7.2.3
 URL: https://github.com/rainer-rq-koelle/pru3di
 BugReports: https://github.com/rainer-rq-koelle/pru3di/issues
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     assertthat
+VignetteBuilder: knitr
