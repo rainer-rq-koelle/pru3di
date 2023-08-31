@@ -1,0 +1,26 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.5.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "pru3di" in publications use:'
+type: software
+license: MIT
+title: 'pru3di: An opinionated hack to implement the Borealis use-case study on 3Di'
+version: 0.0.0.9000
+abstract: An opinionated implementation of the 3Di algorithm. The use case serves
+  also to allow me to explore the development (and it workflow) of R packages. This
+  work-in-progress will ultimately be transferred to a more useful and stable version.
+authors:
+- family-names: Koelle
+  given-names: Rainer
+  email: rainer.koelle@eurocontrol.int
+  orcid: https://orcid.org/0000-0003-2810-1404
+repository-code: https://github.com/rainer-rq-koelle/pru3di
+url: https://github.com/rainer-rq-koelle/pru3di
+contact:
+- family-names: Koelle
+  given-names: Rainer
+  email: rainer.koelle@eurocontrol.int
+  orcid: https://orcid.org/0000-0003-2810-1404
