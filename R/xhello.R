@@ -8,5 +8,7 @@
 #' @examples
 #' xhello("Stranger")
 xhello <- function(.name){
+  #stopifnot("Think about providing a name." = is.character(.name))
+  assertthat::assert_that(is.character(.name), msg = paste("You have to provide a character vector. Your input:", .name))
   paste0("Greetings ", .name)
 }
