@@ -12,6 +12,7 @@ An opinionated implementation of the 3Di algorithm. The use case serves also to 
 Useful links:
 \itemize{
   \item \url{https://github.com/rainer-rq-koelle/pru3di}
+  \item \url{https://rainer-rq-koelle.github.io/pru3di/}
   \item Report bugs at \url{https://github.com/rainer-rq-koelle/pru3di/issues}
 }
 
