@@ -4,6 +4,8 @@
 # pru3di
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/rainer-rq-koelle/pru3di/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rainer-rq-koelle/pru3di/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 This is a learning-while-doing project. The goal is to explore to
@@ -31,6 +33,9 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(pru3di)
 ## basic example code
+# the following will greet you
+xhello("Stranger")
+#> [1] "Greetings Stranger"
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
